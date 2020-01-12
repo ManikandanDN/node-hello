@@ -5,7 +5,7 @@
 
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME : "mani-gogo-node"
+  EB_PACKAGE_S3_BUCKET_NAME : "mani-gogo-nodee"
   EB_APPLICATION_NAME       : "Mygogodemo"
   EB_ENVIRONMENT_NAME       : "Mygogodemo-env"
   DEPLOY_PACKAGE_NAME       : "Mygogodemo-${{ github.sha }}.zip"
